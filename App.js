@@ -3,7 +3,6 @@ import { Text, View, StyleSheet } from "react-native";
 import { Breathe } from "./Breathe";
 
 import { Canvas, Circle } from "@shopify/react-native-skia";
-import { Tldraw } from "tldraw";
 
 const CircleDemo = () => {
   const r = 128;
@@ -17,7 +16,7 @@ const CircleDemo = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Hello world</Text> */}
+      <Text>Hello world</Text>
       <Breathe />
       {/* <CircleDemo /> */}
     </View>

@@ -13,7 +13,5 @@ config.transformer.getTransformOptions = async () => ({
     inlineRequires: true,
   },
 });
-config.resolver.sourceExts.push("mjs");
-config.resolver.sourceExts.push("cjs");
 
 module.exports = config;
