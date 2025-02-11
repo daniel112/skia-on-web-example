@@ -1,9 +1,11 @@
-Working react native skia & react native reanimated on Expo Web
+# Basic React Native Skia Test on Expo Web (react-native-web)
 
-- web needs a different entrypoint setting than mobile
-- web needs the additional metro.config.js settings
+Error occurs using react-native-skia `1.11.6`
+![](2025-02-11-13-35-42.png)
+Reverting to Expo recommended version >= `1.5.0` && < `1.80` works
 
 ## Running
 
-1. `yarn install`
-2. `yarn web`
+- `nvm use`
+- `yarn install`
+- `yarn web`
