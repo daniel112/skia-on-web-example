@@ -13,7 +13,7 @@
   "dependencies": {
     "@babel/plugin-transform-template-literals": "^7.25.9",
     "@expo/metro-runtime": "~4.0.1",
-    "@shopify/react-native-skia": "1.11.6",
+    "@shopify/react-native-skia": "1.11.7",
     "expo": "~52.0.28",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
